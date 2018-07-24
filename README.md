@@ -1,2 +1,6 @@
 # FlightController_MSP430F5529
-A simple flight controller bash on MSP430F5529
+This is a flight controller which is based on my another repository https://github.com/focksor/FlightController, which is also a flight controller.The difference between them is that this one is based on MSP430F5529, a MCU from TI [**TI**.com - Texas Instruments], and that one is based on STM32F103, a MCU from STM. In fact, the transfer of this flight controller is not because MSP430 is better than STM32, I just do it because the TiIC competiton of Fujian ask me to use this MCU so I have to do this. In fact, which the shit-like interrupt, MSP430 is the worst MCU I have ever used and I never recommend you to use this MCU because I think that it's a murder.
+
+I programed this project and do some thing for it, but I have to thanks for trigger 1996(https://github.com/trigger1996) and God_Fish(https://github.com/God-Fish). Trigger had rebuilt my project and finished the mainly transfer task, and he is the one who first ask me to program this project, which is the coolest thing I have ever done. God_Fish is my partner, which must be otaku  undoubtedly, and he is a talent on PID config, he use just one day to make the PID config to adjust to our craft.
+
+I upload this project to Github but I want no one to use MSP430 so I will not talk anything about how it work.
